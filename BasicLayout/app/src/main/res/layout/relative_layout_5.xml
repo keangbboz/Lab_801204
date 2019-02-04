@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvReima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="A New Flipboard
+Reimagined,with over
+300,000 new topics"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="GET STARTED"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:background="#FF0000"
+        android:textColor="#fff"
+        android:layout_marginBottom="60dp"/>
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Skip"
+        android:textColor="#eee"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"/>
+    <TextView
+        android:id="@+id/by"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="By Continuing. you accept the Term of Use Pricacy Policy"
+        android:textColor="#eee"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
