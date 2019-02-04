@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HelloView</string>
+    <string name="app_kk">OK</string>
 </resources>
